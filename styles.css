@@ -54,7 +54,6 @@ nav ul li a:hover {
   align-items: center;
   text-decoration: none;
   font-size: 85%;
-
   color: rgb(214, 214, 214);
 }
 .left a img {
@@ -85,22 +84,27 @@ nav ul li a:hover {
   font-size: 2rem;
 }
 .leftSection .btn {
-  padding: 12px;
+  padding: 10px;
   background: #2c3e50;
   color: white;
   border: 2px solid white;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 0.8rem;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
+.leftSection .btn img{
+  width: 0.9rem;
+  align-items: center;
+  padding-left: 4px;
+}
+
 .leftSection .btn:hover {
-  background: #fdfdfd;
-  color: rgb(0, 0, 0);
+  background: #0053a7;
+  color: rgb(255, 255, 255);
   border-radius: 10px;
-  font-size: 1.2rem;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(	0,	83,	167, 0.9);
 }
 
 .leftSection .buttons {

@@ -4,19 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shashank A G - Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <style>
       .projectSection {
         max-width: 75%;
         color: rgb(88, 88, 88);
-        margin: 20px auto;
+        margin: 10px auto;
         padding: 15px;
         background-color: #eeeeee;
         border-radius: 10px;
       }
       .projectSection:hover {
         max-width: 76%;
-        color: rgb(73, 73, 73);
+        color: rgb(54, 54, 54);
         margin: 20px auto;
         padding: 20px;
         background-color: #d4d4d4;
@@ -24,33 +30,46 @@
         border-radius: 5px;
       }
       .btn {
-        padding: 10px;
-        background:  #2c3e50;
+        padding: 8px;
+        background: #2c3e50;
         color: white;
         border: 2px solid white;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-        font-size:12px;
+        font-size: 12px;
         cursor: pointer;
       }
       .btn:hover {
-        padding: 11px;
+        padding: 9px;
         border: 2px solid white;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-        font-size:13px;
+        font-size: 13px;
         cursor: pointer;
       }
-      .btn
+      .btn img {
+        width: 0.7rem;
+        align-items: center;
+        padding-left: 2px;
+      }
+
       .projectSection p {
-        color: rgb(206, 206, 206);
+        font-size: 85%;
+        color: rgb(92, 91, 91);
       }
 
       .projectSection h1,
       h2,
       h3 {
         color: #2c3e50;
-        margin-bottom: 20px;
+        font-size: 95%;
+        margin-bottom: 10px;
+      }
+
+      .projectSection h3 {
+        color: #2c3e50;
+        font-size: 90%;
+        margin-bottom: 5px;
       }
 
       .projectSection img {
@@ -66,12 +85,16 @@
   <body>
     <header>
       <nav>
-        <div class="left"><a href="index.html"><img src="img/avtar.png" alt="avtar">Shashank</a></div>
+        <div class="left">
+          <a href="index.html"
+            ><img src="img/avtar.png" alt="avtar" />Shashank</a
+          >
+        </div>
         <div class="rigth">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact me</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,17 +107,21 @@
             Developed a project focused on signature detection and segmentation
             from scanned document images. Leveraged the SPODS dataset for
             training and testing the proposed method, achieved 83% accuracy.
-            Comparative analysis of ResNet50,
-            ResNet101, ResNet152v2 and YoloV5s are done.
+            Comparative analysis of ResNet50, ResNet101, ResNet152v2 and YoloV5s
+            are done.
           </p>
         </section>
         <section>
-          <h3>Technologies Used</h3>
+          <h3>Technologies</h3>
           <p>Python,ResNet50 model, OpenCV, TensorFlow, and Keras libraries</p>
         </section>
 
         <section>
-          <a href="" target="_blank"><button class="btn">View Project</button></a>
+          <a href="" target="_blank"
+            ><button class="btn">
+              View Project
+              <img src="img/link-open.png" alt="external-logo" /></button
+          ></a>
         </section>
       </div>
 
@@ -102,17 +129,23 @@
         <section>
           <h2>Logo Recognition</h2>
           <p>
-            Implemented a machine learning approach to recognize brand logos in input images from real time webcam images.
-            Trained a KneighborsClassifier model on custom dataset containing various brand logos.
+            Implemented a machine learning approach to recognize brand logos in
+            input images from real time webcam images. Trained a
+            KneighborsClassifier model on custom dataset containing various
+            brand logos.
           </p>
         </section>
         <section>
-          <h3>Technologies Used</h3>
-          <p> OpenCV, scikit-learn, and scikit-image libraries.</p>
+          <h3>Technologies</h3>
+          <p>OpenCV, scikit-learn, and scikit-image libraries.</p>
         </section>
 
         <section>
-          <a href="https://github.com/ShashankAG25/LogoDetection" target="_blank"><button class="btn">View Project</button></a>
+          <a
+            href="https://github.com/ShashankAG25/LogoDetection"
+            target="_blank"
+            ><button class="btn">View Project <img src="img/link-open.png" alt="external-logo" /></button></a
+          >
         </section>
       </div>
 
@@ -120,18 +153,22 @@
         <section>
           <h2>Face Recognition</h2>
           <p>
-            Developed a real-time webcam video program that recognizes celebrity faces.
-            Trained an LBPHFaceRecognizer algorithm-based model using dataset created from face images.
-            
+            Developed a real-time webcam video program that recognizes celebrity
+            faces. Trained an LBPHFaceRecognizer algorithm-based model using
+            dataset created from face images.
           </p>
         </section>
         <section>
-          <h3>Technologies Used</h3>
+          <h3>Technologies</h3>
           <p>numpy, OpenCV and CascadeClassifier</p>
         </section>
 
         <section>
-          <a href="https://github.com/ShashankAG25/FaceRecognition" target="_blank"><button class="btn">View Project</button></a>
+          <a
+            href="https://github.com/ShashankAG25/FaceRecognition"
+            target="_blank"
+            ><button class="btn">View Project <img src="img/link-open.png" alt="external-logo" /></button></a
+          >
         </section>
       </div>
 
@@ -139,18 +176,21 @@
         <section>
           <h2>Android app for billing - MotoClub</h2>
           <p>
-            Designed and developed an Android app for generating invoices for vehicle repairs.
-            Implemented Firebase authentication for user login.
-            Designed Firebase Realtime Database for storing and retrieving user data.
+            Designed and developed an Android app for generating invoices for
+            vehicle repairs. Implemented Firebase authentication for user login.
+            Designed Firebase Realtime Database for storing and retrieving user
+            data.
           </p>
         </section>
         <section>
-          <h3>Technologies Used</h3>
+          <h3>Technologies</h3>
           <p>Android SDK,FireBase databse and Java</p>
         </section>
 
         <section>
-          <a href="https://github.com/ShashankAG25/MotoClub" target="_blank"><button class="btn">View Project</button></a>
+          <a href="https://github.com/ShashankAG25/MotoClub" target="_blank"
+            ><button class="btn">View Project <img src="img/link-open.png" alt="external-logo" /></button></a
+          >
         </section>
       </div>
 
@@ -158,17 +198,21 @@
         <section>
           <h2>Resume matcher</h2>
           <p>
-        Matching resumes with job description using CountVectorizer.
-        Extracted features from resume using PyPDF2 and pdfplumber.
+            Matching resumes with job description using CountVectorizer.
+            Extracted features from resume using PyPDF2 and pdfplumber.
           </p>
         </section>
         <section>
-          <h3>Technologies Used</h3>
+          <h3>Technologies</h3>
           <p>Python,PyPDF2 and pdfplumber</p>
         </section>
 
         <section>
-          <a href="https://github.com/ShashankAG25/Resume-Matcher" target="_blank"><button class="btn">View Project</button></a>
+          <a
+            href="https://github.com/ShashankAG25/Resume-Matcher"
+            target="_blank"
+            ><button class="btn">View Project <img src="img/link-open.png" alt="external-logo" /></button></a
+          >
         </section>
       </div>
 
@@ -176,23 +220,24 @@
         <section>
           <h2>Noun Extraction</h2>
           <p>
-            Created a solution for extracting nouns from the sklearn datasets fetch_20newsgroups.
-            Utilized , NLTK and pymongo for storing the extracted nouns in MongoDB
+            Created a solution for extracting nouns from the sklearn datasets
+            fetch_20newsgroups. Utilized , NLTK and pymongo for storing the
+            extracted nouns in MongoDB
           </p>
         </section>
         <section>
-          <h3>Technologies Used</h3>
+          <h3>Technologies</h3>
           <p>Python, NLTK and pymongo</p>
         </section>
 
         <section>
-          <a href="https://github.com/ShashankAG25/NounExtraction-" target="_blank"><button class="btn">View Project</button></a>
+          <a
+            href="https://github.com/ShashankAG25/NounExtraction-"
+            target="_blank"
+            ><button class="btn">View Project <img src="img/link-open.png" alt="external-logo" /></button></a
+          >
         </section>
       </div>
-      
-
-
-
     </main>
 
     <footer>&copy; 2024 Shashank A G | Portfolio</footer>
