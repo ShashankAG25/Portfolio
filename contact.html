@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact Me - Shashank A G</title>
+    <style>
+      section {
+        max-width: 50%;
+        margin: 4% auto;
+        background-color: #e0e0e0;
+        padding: 3em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+      }
+      label {
+        display: block;
+        margin-bottom: 0.5em;
+      }
+      input{
+        width: 100%;
+        padding: 0.5em;
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      textarea {
+        width: 100%;
+        min-height: 200px;
+        padding: 0.5em;
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        padding: 12px;
+        background: #2c3e50;
+        color: white;
+        border: 2px solid rgb(211, 193, 193);
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+      }
+      button:hover {
+        background:  #006110;   
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="index.html">Shashank's Portfolio</a></div>
+        <div class="rigth">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <form
+        action="mailto:shashankbhat56@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+      <label for="name">Name</label>
+        <input type="name" id="name" name="name" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="10" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>&copy; 2024 Shashank A G | Portfolio</footer>
+  </body>
+</html>
